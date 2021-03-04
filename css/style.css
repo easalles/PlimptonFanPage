@@ -1,0 +1,36 @@
+body {
+
+}
+nav {
+  background: #0F889E
+}
+nav a {
+  color:white
+}
+h1 {
+  color:purple;
+}
+
+.urgent{
+  font-size: 2em;
+  font-style: bold;
+  color: red;
+}
+
+.responsive {
+  width: 98.5%;
+}
+
+.sidebyside img {
+  width:49%;
+}
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: blue;
+  }
+  .sidebyside img {
+    width: 100%;
+  }
+}
